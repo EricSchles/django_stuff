@@ -1,0 +1,4 @@
+from django.shortcuts import render
+
+def site_index(request):
+    return render(request,"site_wide/site_index.html",{})
